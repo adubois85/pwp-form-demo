@@ -81,6 +81,8 @@
 									<textarea name="message" rows="5" id="message" class="form-control" placeholder="Your Message (2000 charaters max)"></textarea>
 								</div>
 							</div>
+							<!--  -->
+							<div class="g-recaptcha" data-sitekey="6Lep6C4UAAAAAO4cEqugy2QagJndAaB6NBFccbNK"></div>
 
 							<button class="btn btn-default" type="reset">Reset</button>
 							<button class="btn btn-info" type="submit">Submit</button>
