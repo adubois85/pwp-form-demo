@@ -44,7 +44,7 @@
 					<div class="col-sm-6">
 
 						<!-- BEGIN CONTACT FORM -->
-						<form id="contact-form">
+						<form id="contact-form" action="" method="post" novalidate>
 							<div class="form-group">
 								<label for="name">Name</label>
 								<div class="input-group">
@@ -86,6 +86,9 @@
 							<button class="btn btn-info" type="submit">Submit</button>
 						</form>
 						<!-- END CONTACT FORM-->
+
+						<!-- Empty div to store form error/success messages -->
+						<div id="output-area"></div>
 
 					</div><!-- /.col-sm-6 -->
 				</div><!-- /.row -->
